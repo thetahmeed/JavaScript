@@ -6,8 +6,7 @@
 
 // 03. Outsite of Html file
 
-// write a Javascript File with the extention (.js) and make a link by writing this line on html head tag <script src='index.js'></script>
-
+// write a Javascript File with the extention (.js) and make a link by writing this line on html head tag or body tag <script src='index.js'></script>
 
 // example
 
