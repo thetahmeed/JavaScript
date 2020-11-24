@@ -1,0 +1,10 @@
+<body>
+    <script> 
+    document.write("Hello Tahmeed");
+    </script>
+</body>
+
+// or
+window.alert("Hello Tahmeed");
+alert("Hello Tahmeed");
+console.log("Hello Tahmeed");
