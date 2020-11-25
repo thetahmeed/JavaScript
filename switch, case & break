@@ -41,3 +41,18 @@
         }
 
     </script>
+    
+    // another example
+    
+    switch(givenNumber)
+        {
+            case "a":
+            case "e":
+            case "i":
+            case "o":
+            case "u":
+                document.write("<h1>Vowel</h1>");
+                break;
+            default:
+                document.write("<h1>Consonant</h1>");
+        }
