@@ -11,8 +11,8 @@ var x = 10;
 x += 5; // x = x + 5;
 
 // Relational Oparator
-==	equal to
-===	equal value and equal type
+==	equal to                    // it will check the value is equal or not
+===	equal value and equal type  // it will check the value is equal or not (With datatype)
 !=	not equal
 !==	not equal value or not equal type
 >	greater than
