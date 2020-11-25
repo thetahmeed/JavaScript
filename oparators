@@ -1,0 +1,11 @@
+// Arithmetic Operators
+
++, -, *, /, % (Modulas), ++, --
+
+// Assignment Operators
+
+=, +=, -=, *=, /=, %=
+
+// Example:
+var x = 10;
+x += 5; // x = x + 5;
