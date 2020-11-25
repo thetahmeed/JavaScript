@@ -29,7 +29,4 @@ number = number.toFixed(2);     // it returns string value
 
 console.write(Number.("123"));
 
-// get length
 
-var name = "Tahmeed";
-var nameLength = name.length;
