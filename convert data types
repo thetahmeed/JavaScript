@@ -6,7 +6,7 @@ number = toString(number);
 // String to Number (Decimal)
 
 var phone = "123";
-phone = parseInt(phone);
+phone = parseInt(phone, 10); // 10 for decimal number system
 
 // String to Number (Float)
 
