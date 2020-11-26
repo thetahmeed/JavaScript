@@ -17,7 +17,7 @@ var student2 = new Student("Name2", 69, "English");
 console.log(student1.language);
 console.log(student2.age);
 
-// adding function in constructor
+                                                        /* adding function in constructor */
 
     this.displayInfo = function ()
     {
