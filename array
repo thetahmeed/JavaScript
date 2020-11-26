@@ -37,8 +37,27 @@ names.pop();
 names.shift();
 
 // add or remove a perticular position by splice
-names.splice(2, 0, "Extra", "extra") // 2: where you want to add value, 0: which position you want to remove, Last two param is New Value
+names.splice(2, 0, "Extra", "extra") // 2: where you want to add value, 0: how many index you want to remove acording to first param, Last two param is New Value
 
+// remove perticular elements
+names.splice(1, 2); // from which indez to which index
+
+// keep only first two elements
+names.splice(2); // it returns a new array and does not effect anything on main array
+names.splice(2, 5); // starting point and ending point
+
+// sort array (Only string)
+names.sort();
+
+// sort array (Numbers)
+var country = [45, 158, 78, 36, 44, 98, 236, 77];
+country.sort(function(x, y){
+    return x-y;
+});
+
+// sort array and reverse (Only string)
+country.sort();
+country.reverse();
 
 /* Short way */
 // dec the array // pushing value
