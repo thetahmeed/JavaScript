@@ -1,0 +1,16 @@
+// dec the array
+var names = new Array (5);
+
+// pushing value
+names[0] = "One";
+names[1] = "Two";
+names[2] = "Three";
+names[3] = "Four";
+names[4] = "Five";
+
+// displaying value
+document.write(names[0]+"<br/>");
+document.write(names[1]+"<br/>");
+document.write(names[2]+"<br/>");
+document.write(names[3]+"<br/>");
+document.write(names[4]+"<br/>");
