@@ -14,3 +14,9 @@ document.write(names[1]+"<br/>");
 document.write(names[2]+"<br/>");
 document.write(names[3]+"<br/>");
 document.write(names[4]+"<br/>");
+
+// print all alements
+document.write(names+"<br/>");
+
+// get the lenth
+document.write(names.length+"<br/>");
