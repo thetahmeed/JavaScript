@@ -1,0 +1,11 @@
+// creating an object
+var student1 = 
+{
+    name : "Tahmeed",
+    age : 69,
+    language: ["Bangla", "English"]
+}
+
+// printing a value from an object
+
+console.log(student1.name);
