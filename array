@@ -20,3 +20,7 @@ document.write(names+"<br/>");
 
 // get the lenth
 document.write(names.length+"<br/>");
+
+/* Short way */
+// dec the array // pushing value
+var names = ["One", "Two", "Three", "Four", "Five", "Six"];
