@@ -1,5 +1,5 @@
 // dec the array
-var names = new Array (5);
+var names = new Array (5); // 5 is the length of the array. To write a length is not mendatory. You can keep it blank
 
 // pushing value
 names[0] = "One";
