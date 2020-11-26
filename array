@@ -18,14 +18,27 @@ document.write(names[4]+"<br/>");
 // print all alements
 document.write(names+"<br/>");
 
+
+                                            /* Some methods */
+
 // get the lenth
 document.write(names.length+"<br/>");
 
-// push a new element
+// push a element at the first place
+names.unshift("Dhaka");
+
+// push a element at the end
 names.push("Seven");
 
 // remove last value
 names.pop();
+
+// remove first value
+names.shift();
+
+// add or remove a perticular position by splice
+names.splice(2, 0, "Extra", "extra") // 2: where you want to add value, 0: which position you want to remove, Last two param is New Value
+
 
 /* Short way */
 // dec the array // pushing value
