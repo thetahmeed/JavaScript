@@ -1,0 +1,8 @@
+function doSquare(num)
+{
+    var result = num * num;
+    
+    return result;
+}
+
+document.write("Square = "+doSquare(4));
