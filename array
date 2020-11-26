@@ -21,6 +21,24 @@ document.write(names+"<br/>");
 // get the lenth
 document.write(names.length+"<br/>");
 
+// push a new element
+names.push("Seven");
+
+// remove last value
+names.pop();
+
 /* Short way */
 // dec the array // pushing value
 var names = ["One", "Two", "Three", "Four", "Five", "Six"];
+
+// join two array by concat
+var names = ["One", "Two", "Three", "Four", "Five"];
+var country = ["Bangladesh", "India", "Pakistan", "Nepal"];
+var all = names.concat(country);
+
+// print by using loop
+var id = [0, 1, 3, 4, 5, 6, 7, 8, 9, 10];
+
+for (var i = 0; i<10; i++){
+    document.write(id[i]+"<br/>");
+}
