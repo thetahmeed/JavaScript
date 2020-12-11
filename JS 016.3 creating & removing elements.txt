@@ -26,4 +26,14 @@ theDiv.appendChild(heading);
     theDiv.removeChild(removeEnglish);
 
 
+	    // adding in a particular place
+        var heading0 = document.createElement("h1");
+        var text0 = document.createTextNode("Hindi");
+        heading0.appendChild(text0);
+
+        var positionOfEnglish = document.getElementById("iamEnglish");
+        // first parameter is which value you want to add second parameter is where you want to add
+        theDiv.insertBefore(heading0, positionOfEnglish);
+
+
 </script>

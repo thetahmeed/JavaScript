@@ -100,4 +100,15 @@
 
         document.querySelectorAll(".my-div a")[0].innerHTML = "Not Google";
         
+
+
+// creating a new class
+
+   var theDiv = document.getElementById("div1").classList.add("newClass");
+
+// removing a class
+
+   var theDiv = document.getElementById("div1").classList.remove("newClass");
+
+
     </script>
