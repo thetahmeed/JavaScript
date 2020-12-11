@@ -1,0 +1,21 @@
+    <div id="div1" style="background-color: yellow;">
+
+        <h1>Bangla</h1>
+        <h1>English</h1>
+
+    </div>
+
+    <script>
+       // creating an elemenets Ex: h1
+var heading = document.createElement("h1");
+
+// creating a text
+var text = document.createTextNode("Spanish");
+
+// joining text to the element
+heading.appendChild(text);
+
+// adding to the HTML
+var theDiv = document.getElementById("div1");
+theDiv.appendChild(heading);
+    </script>
