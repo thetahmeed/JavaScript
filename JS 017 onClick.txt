@@ -1,0 +1,47 @@
+    
+    <button onclick="alert('Hello')">Click me softly</button>
+
+
+// or
+
+    <button onclick="showMessage()">Click me softly</button>
+
+    <script>
+
+        function showMessage(){
+            alert("Hello");
+        }
+
+    </script>
+
+
+
+// another example
+
+    <button onclick="showMessage()">Click me softly</button>
+
+    <h3>Not clicked</h3>
+
+    <script>
+        function showMessage()
+        {
+            document.querySelector("h3").innerHTML = "Clicked";
+        }
+    </script>
+
+
+// another 2
+
+    <button onclick="showImage()">View picture</button>
+
+    <br/>
+
+    <img id="myImage" src="images/img1.jpg" height="200" width="300"/>
+
+    <script>
+        function showImage()
+        {
+            document.querySelector("#myImage").src="images/img3.jpg"
+        }
+    </script>
+
