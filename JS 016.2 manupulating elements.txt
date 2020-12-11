@@ -45,3 +45,17 @@
         }
     </script>
 
+
+// more
+    <h1 id="h1">Visit</h1>
+    <a href="#" id="link">Google</a>
+
+    <script>
+       var title = document.getElementById("h1");
+       title.style.color = "green";
+       title.style.fontSize = "2.3rem";
+
+       var link = document.getElementById("link");
+       link.href = "http://google.com";
+
+    </script>
